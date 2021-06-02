@@ -2,6 +2,9 @@ import express, {Request, Response} from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import connection from './connection'
+import createStudent from './endpoints/createStudent'
+import createTeacher from './endpoints/createTeacher'
+import getAgeStudent from './endpoints/getAgeStudent'
 
 dotenv.config()
 const app = express()
@@ -46,6 +49,11 @@ app.post('/turma', async(req:Request, res:Response):Promise<void>=>{
         })
     }
 })
+
+app.post('/estudantes', createStudent)
+app.post('/docentes', createTeacher)
+app.get('/estudantes/:id', getAgeStudent)
+
 
 app.listen(process.env.DB_PORT, ()=>{
     console.log(`Server is running at http://localhost:${process.env.DB_PORT}...`)
