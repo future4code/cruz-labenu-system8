@@ -35,10 +35,6 @@ export default async function getAgeStudent(
             .send(error.message)
     }
 
-
-
-
 }
-
 
 
