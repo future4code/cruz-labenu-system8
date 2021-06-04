@@ -16,8 +16,5 @@ export default async function createStudent (
         res.status(200)
             .send('Estudante criado com Sucesso!')
 
-
-
-
     }
 
