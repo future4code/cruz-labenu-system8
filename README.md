@@ -1,5 +1,7 @@
 ## LabenuSystem:
 
+https://www.notion.so/WFS11-S17-LabenuSystem-61d69b9f102a4396a2eb5e2f09d0cb10
+
 Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização. 
 
 Ele deve possuir, ao menos, as 3 entidades importantes:
