@@ -4,7 +4,8 @@
 ![image](https://user-images.githubusercontent.com/77943169/121034352-55428c80-c783-11eb-9a25-cd2787386a34.png)
 </br>
 </br>
-Projeto que consiste criar um sistema que represente o básico da organização na Labenu.</br>
+Projeto que consiste criar um sistema que represente o básico da organização na Labenu.
+</br>
 Proposta para desenvolvimento do projeto encontra-se no notion:</br>
 https://www.notion.so/WFS11-S17-LabenuSystem-61d69b9f102a4396a2eb5e2f09d0cb10
   
