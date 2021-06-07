@@ -42,20 +42,23 @@ https://www.notion.so/WFS11-S17-LabenuSystem-61d69b9f102a4396a2eb5e2f09d0cb10
 
 ✏ **Basic Features** 🔝
 
-💠→ Criar estudante;
+💠→ Estudante criada;
+</br>
     Tabela Estudantes: representa os estudantes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e os principais hobbies dele.  ;
 
-💠→ Criar docente;
+💠→ Docente criada;
+</br>
     Tabela Docentes: representa docentes da nossa instituição. Eles devem possuir: id, nome, email, data de nascimento e todas as especialidades dele. Há 7 especialidades: React, Redux, CSS, Testes, Typescript, Programação Orientada a Objetos e Backend
 
-💠→ Criar turma;
+💠→ Turma criada;
+</br>
     Tabela Turma: toda turma é composta das seguintes características: id, nome, data de início, data de término, lista de professores responsáveis, uma lista de alunos e módulo atual em que a turma está.  O módulo pode assumir os valores de 1 a 7 ou `undefined`, indicando que as aulas dessa turma ainda não começaram. Para esse exercício, vamos considerar que existam dois tipos de turma: integral ou noturna. Há uma restrição para o nome das turmas noturnas: tem que terminar com `-na-night`.
 
-💠→ Adicionar estudante na turma;
+💠→ Estudante na turma adicionado;
 
-💠→ Adicionar docente na turma;
+💠→ Docente na turma adicionado;
 
-💠→ Pegar a idade de algum estudante a partir do id 
+💠→ Pega a idade de algum estudante a partir do seu id;
 </br>
 </br>
 
@@ -73,4 +76,4 @@ https://www.notion.so/WFS11-S17-LabenuSystem-61d69b9f102a4396a2eb5e2f09d0cb10
 
 💠→ Remove docente de uma turma;
 
-💠→ Muda turma de módulo
+💠→ Muda turma de módulo.
